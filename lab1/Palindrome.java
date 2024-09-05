@@ -23,8 +23,8 @@ public class Palindrome {
 
     public static boolean isPalindrome(String s) {
         String reversed = reverseString(s);
-        s = s.toLowerCase();
+        s = s.toLowerCase(); // .toLowerCase() - перевести всю строку в нижний регистр
         reversed = reversed.toLowerCase();
-        return s.equals(reversed); // сравниваем
+        return s.equals(reversed); // .equals() сравнивает строки
     }
 }
