@@ -1,3 +1,4 @@
+// java Primes.java
 public class Primes { // объявляем класс Primes
     public static void main(String[] args) { // void - метод не возвращает никакого значения.
                                              // String[] - метод принимает массив строк.
