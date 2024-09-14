@@ -6,6 +6,7 @@ public class MyFirstClass {
 		int a = scanner.nextInt();
 		int b = scanner.nextInt();
 		System.out.println(plus(a, b));
+		scanner.close();
 	}
 
 	public static int plus(int a, int b) {
