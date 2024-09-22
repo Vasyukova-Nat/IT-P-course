@@ -1,20 +1,22 @@
+package examples;
+
 public class Point3d extends Point2d {
     private double zCoord; // координата Z
 
-    public Point3d(double x, double y, double z) { // Конструктор инициализации
+    protected Point3d(double x, double y, double z) { // Конструктор инициализации
         super(x, y);
         zCoord = z;
     }
 
-    public Point3d() { // Конструктор по умолчанию.
+    protected Point3d() { // Конструктор по умолчанию.
         this(0, 0, 0);
     }
 
-    public double getZ() { // Возвращение координаты Z **/
+    protected double getZ() { // Возвращение координаты Z **/
         return zCoord;
     }
 
-    public void setZ(double val) { // Установка значения координаты Z.
+    protected void setZ(double val) { // Установка значения координаты Z.
         zCoord = val;
     }
 

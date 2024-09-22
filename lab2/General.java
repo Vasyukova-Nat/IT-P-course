@@ -1,3 +1,5 @@
+// import examples.Point3d;
+
 public class General {
     public static void main(String[] args) {
         Audiobook audiobook1 = new Audiobook("1984", "George Orwell", 1949, 11.5, "Елена Ландэ");
@@ -15,6 +17,9 @@ public class General {
         film2.displayInfo();
 
         System.out.println("Всего аудиокниг: " + Audiobook.getInstanceCount()); // Счетчик экземпляров
+
+        // Point3d myFirst3DPoint = new Point3d(5, 8, 2);
+        // System.out.println("YYYY" + myFirst3DPoint.getX());
 
     }
 }
