@@ -16,7 +16,7 @@ public class Palindrome {
         String reversed = "";
         for (int i = s.length() - 1; i >= 0; i--) { // с индекса последнего символа (s.length() - 1)
                                                     // до индекса первого (0)
-            reversed += s.charAt(i);
+            reversed += s.charAt(i); // получение символа строки, находящегося на позиции i.
         }
         return reversed;
     }
@@ -24,7 +24,7 @@ public class Palindrome {
     public static boolean isPalindrome(String s) {
         String reversed = reverseString(s);
         s = s.toLowerCase(); // .toLowerCase() - перевести всю строку в нижний регистр
-        reversed = reversed.toLowerCase();
+        reversed = reversed.toLowerCase(); // или toUpperCase()
         return s.equals(reversed); // .equals() сравнивает строки
     }
 }
