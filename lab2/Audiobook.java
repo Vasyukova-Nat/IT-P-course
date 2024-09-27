@@ -12,6 +12,7 @@ class Audiobook extends Book {
 
     public Audiobook() { // Конструктор по умолчанию.
         this("--unidentified book--", "--unknown author--", 0000, -500, "--wind--");
+        instanceCount++;
     }
 
     public double getDuration() {
