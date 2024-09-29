@@ -1,0 +1,13 @@
+public static String localReverse_inator(String s, String marker) {
+        String o = "";
+        String temp = "";
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) != marker.charAt(0)) {
+                temp = "" + s.charAt(i) + temp;
+            } else {
+                o += temp + marker;
+                temp = "";
+            }
+        }
+        return o;
+    }
