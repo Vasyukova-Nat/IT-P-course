@@ -1,3 +1,5 @@
+// GitHub: https://github.com/Vasyukova-Nat/IT-P-course.git
+
 package tasks;
 
 import java.util.Arrays;
