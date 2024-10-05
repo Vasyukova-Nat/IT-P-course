@@ -20,7 +20,7 @@ public class AllTasks2 {
         System.out.println("Ответ: " + getInitials(b1) + " и " + getInitials(b2));
 
         System.out.println("\n" + "Task 4");
-        double[] m4 = { 3.5, 7.0, 1.5, 9.0, 5.5 };
+        double[] m4 = { 3.5, 7, 1.5, 9.0, 5.5 };
         System.out.println("Ответ: " + Arrays.toString(normalizatorinator(m4)));
 
         System.out.println("\n" + "Task 5");
@@ -97,7 +97,6 @@ public class AllTasks2 {
 
     public static double[] normalizatorinator(double[] m) {
         double[] o = new double[m.length];
-
         double maxn = Arrays.stream(m).max().orElse(Double.NaN);
         double minn = Arrays.stream(m).min().orElse(Double.NaN);
 
@@ -143,9 +142,9 @@ public class AllTasks2 {
     }
 
     public static int secondBiggest_inator(int[] m6) {
-        int[] copy = m6.clone();
-        Arrays.sort(copy);
-        return copy[copy.length - 2];
+        // int[] copy = m6.clone();
+        Arrays.sort(m6);
+        return m6[m6.length - 2];
     }
 
     public static String localReverse_inator(String s, String marker) {
