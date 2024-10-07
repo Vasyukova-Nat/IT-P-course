@@ -4,12 +4,12 @@ package lab3;
 
 import java.util.List;
 
-public class Order {
+public class N2Order {
     private List<String> items; // Список товаров в заказе
     private String deliveryAddress; // Адрес доставки
     private double totalCost; // Общая стоимость заказа
 
-    public Order(List<String> items, String deliveryAddress, double totalCost) {
+    public N2Order(List<String> items, String deliveryAddress, double totalCost) {
         this.items = items;
         this.deliveryAddress = deliveryAddress;
         this.totalCost = totalCost;

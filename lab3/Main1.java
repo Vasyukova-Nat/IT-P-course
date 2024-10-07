@@ -1,8 +1,8 @@
 package lab3;
 
-public class GeneralHash {
+public class Main1 {
     public static void main(String[] args) {
-        HashTable<String, Integer> hashTable = new HashTable<>(10);
+        N1HashTable<String, Integer> hashTable = new N1HashTable<>(10);
         hashTable.put("one", 1);
         hashTable.put("two", 2);
         hashTable.put("three", 3);
@@ -13,5 +13,7 @@ public class GeneralHash {
 
         hashTable.remove("two");
         System.out.println(hashTable.get("two")); // Вывод: null
+
+        System.out.println("Кол-во элементов таблицы: " + hashTable.size());
     }
 }
