@@ -3,6 +3,7 @@
 package lab3;
 
 import java.util.List;
+import java.util.ArrayList;
 
 public class N2Order {
     private List<String> items; // Список товаров в заказе
@@ -13,6 +14,12 @@ public class N2Order {
         this.items = items;
         this.deliveryAddress = deliveryAddress;
         this.totalCost = totalCost;
+    }
+
+    public N2Order() {
+        this.items = new ArrayList<>();
+        this.deliveryAddress = "КАКОЙ-ТО АДРЕС";
+        this.totalCost = 0.0;
     }
 
     public List<String> getItems() {
