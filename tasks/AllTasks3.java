@@ -208,25 +208,6 @@ public class AllTasks3 {
         return "Наибольшая стоимость у предмета " + itemMax + " - " + maxCost;
     }
 
-    // public static String unique_inator(String s) {
-    // String o = "";
-    // // HashSet<Character> o = new HashSet<>();
-    // HashSet<Character> unique = new HashSet<>();
-    // for (int i = 0; i < s.length(); i++) {
-    // // o += s.charAt(i);
-    // // o.add(s.charAt(i));
-    // if (unique.contains(s.charAt(i))) {
-
-    // } else if (i > 0 && (s.charAt(i) != s.charAt(i - 1))) {
-    // unique.add(s.charAt(i));
-    // o += s.charAt(i);
-    // // o.add(s.charAt(i));
-    // System.out.println(unique + " " + o);
-    // }
-    // }
-    // return o;
-    // }
-
     private static boolean uniqueSymbols(String str) { // Вспомог. метод определения уникальности всех символов в строке
         HashSet<Character> unique = new HashSet<>();
         for (char c : str.toCharArray()) {
@@ -236,20 +217,6 @@ public class AllTasks3 {
         }
         return true;
     }
-
-    // public static String unique_inator(String str) {
-    // String longestSubstring = "";
-    // for (int i = 0; i < str.length(); i++) {
-    // for (int j = i + 1; j <= str.length(); j++) {
-    // String substring = str.substring(i, j);
-    // if (uniqueSymb(substring) && substring.length() > longestSubstring.length())
-    // {
-    // longestSubstring = substring;
-    // }
-    // }
-    // }
-    // return longestSubstring;
-    // }
 
     public static String unique_inator(String s) { // Task 8
         String o = "";
