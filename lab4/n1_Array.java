@@ -13,7 +13,6 @@ public class n1_Array {
         } catch (NullPointerException e) {
             System.out.println("Ошибка. На вход поступил пустой массив");
         }
-
     }
 
     public static double calculateAverage(Object[] arr) {
