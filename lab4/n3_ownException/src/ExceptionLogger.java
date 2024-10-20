@@ -15,7 +15,7 @@ public class ExceptionLogger {
             writer.println("\n" + LocalDateTime.now() + " - Exception: " + e.getMessage());
             e.printStackTrace(writer);
         } catch (IOException ioException) {
-            System.err.println("Ошибка работы с файлом сохранения логов");
+            System.err.println("Ошибка работы с файлом для сохранения логов");
             // ioException.printStackTrace();
         }
     }

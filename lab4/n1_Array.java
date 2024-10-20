@@ -1,4 +1,3 @@
-package lab4;
 
 public class n1_Array {
     public static void main(String[] args) {
@@ -21,5 +20,6 @@ public class n1_Array {
             sum += (int) arr[i]; // здесь может возникнуть исключение ClassCastException
         }
         return (sum / arr.length);
+
     }
 }

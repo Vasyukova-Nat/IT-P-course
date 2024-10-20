@@ -1,4 +1,3 @@
-package lab4;
 
 import java.io.FileReader;
 import java.io.BufferedReader;
@@ -16,9 +15,9 @@ public class n2_Saver {
             String line;
 
             // Файл для сохранения
-            FileWriter fileWriter = new FileWriter("C:\\Users\\lucky\\Desktop\\ITIP\\lab4\\new_file.txt");
-            // FileWriter fileWriter = new FileWriter("C:\\Users\\lucky\\Desktop\\Защищенная
-            // директория\\new.txt");
+            // FileWriter fileWriter = new
+            // FileWriter("C:\\Users\\lucky\\Desktop\\ITIP\\lab4\\new_file.txt");
+            FileWriter fileWriter = new FileWriter("C:\\Users\\lucky\\Desktop\\Защищенная директория\\new.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
             // Цикл перебора и сохранения строк файла

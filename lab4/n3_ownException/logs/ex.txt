@@ -1,0 +1,60 @@
+
+2024-10-20T12:16:45.901518 - Exception: Invalid email format: murza.ru
+CustomEmailFormatException: Invalid email format: murza.ru
+	at EmailValidator.validateEmail(EmailValidator.java:11)
+	at App.main(App.java:11)
+
+2024-10-20T12:56:10.898438700 - Exception: Invalid email format: murza.ru
+CustomEmailFormatException: Invalid email format: murza.ru
+	at EmailValidator.validateEmail(EmailValidator.java:10)
+	at App.main(App.java:11)
+
+2024-10-20T12:59:54.854657300 - Exception: Invalid email format: murza.ru
+CustomEmailFormatException: Invalid email format: murza.ru
+	at EmailValidator.validateEmail(EmailValidator.java:11)
+	at App.main(App.java:11)
+
+2024-10-20T13:00:06.213524500 - Exception: Invalid email format: murza.ru
+CustomEmailFormatException: Invalid email format: murza.ru
+	at EmailValidator.validateEmail(EmailValidator.java:11)
+	at App.main(App.java:11)
+
+2024-10-20T13:00:25.431987 - Exception: Invalid email format: murza@.ru
+CustomEmailFormatException: Invalid email format: murza@.ru
+	at EmailValidator.validateEmail(EmailValidator.java:11)
+	at App.main(App.java:11)
+
+2024-10-20T13:00:34.378686900 - Exception: Invalid email format: murza@a.r
+CustomEmailFormatException: Invalid email format: murza@a.r
+	at EmailValidator.validateEmail(EmailValidator.java:11)
+	at App.main(App.java:11)
+
+2024-10-20T13:25:00.056873700 - Exception: Invalid email format: murza@cats.r
+CustomEmailFormatException: Invalid email format: murza@cats.r
+	at EmailValidator.validateEmail(EmailValidator.java:11)
+	at App.main(App.java:11)
+
+2024-10-20T13:41:45.069639900 - Exception: Invalid email format: murza@cats.r
+CustomEmailFormatException: Invalid email format: murza@cats.r
+	at EmailValidator.validateEmail(EmailValidator.java:13)
+	at App.main(App.java:10)
+
+2024-10-20T13:41:56.202576 - Exception: Invalid email format: murzan@cats.r
+CustomEmailFormatException: Invalid email format: murzan@cats.r
+	at EmailValidator.validateEmail(EmailValidator.java:13)
+	at App.main(App.java:10)
+
+2024-10-20T13:42:57.656348600 - Exception: Invalid email format: murzancats.ru
+CustomEmailFormatException: Invalid email format: murzancats.ru
+	at EmailValidator.validateEmail(EmailValidator.java:13)
+	at App.main(App.java:10)
+
+2024-10-20T13:43:06.192777400 - Exception: Invalid email format: murzancats.ru
+CustomEmailFormatException: Invalid email format: murzancats.ru
+	at EmailValidator.validateEmail(EmailValidator.java:13)
+	at App.main(App.java:10)
+
+2024-10-20T13:44:28.052215500 - Exception: Invalid email format: murzocats.ru
+CustomEmailFormatException: Invalid email format: murzocats.ru
+	at EmailValidator.validateEmail(EmailValidator.java:7)
+	at App.main(App.java:10)

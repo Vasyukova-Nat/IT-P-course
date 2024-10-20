@@ -1,12 +1,9 @@
-import java.util.regex.Pattern;
-
 public class EmailValidator {
 
-    private static final String EMAIL_REGEX = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$";
-    private static final Pattern EMAIL_PATTERN = Pattern.compile(EMAIL_REGEX);
+    private static final String EMAIL_REGEX = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$";
 
     public void validateEmail(String email) throws CustomEmailFormatException {
-        if (!EMAIL_PATTERN.matcher(email).matches()) {
+        if (!email.matches(EMAIL_REGEX)) {
             throw new CustomEmailFormatException("Invalid email format: " + email);
         }
     }
