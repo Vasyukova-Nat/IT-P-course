@@ -58,3 +58,18 @@ CustomEmailFormatException: Invalid email format: murzancats.ru
 CustomEmailFormatException: Invalid email format: murzocats.ru
 	at EmailValidator.validateEmail(EmailValidator.java:7)
 	at App.main(App.java:10)
+
+2024-10-21T11:45:58.084578300 - Exception: Invalid email format: murzocats.ru
+CustomEmailFormatException: Invalid email format: murzocats.ru
+	at EmailValidator.validateEmail(EmailValidator.java:7)
+	at App.main(App.java:10)
+
+2024-10-21T12:03:49.986747700 - Exception: Invalid email format: murz_meoW@cats
+CustomEmailFormatException: Invalid email format: murz_meoW@cats
+	at EmailValidator.validateEmail(EmailValidator.java:7)
+	at App.main(App.java:10)
+
+2024-10-21T12:04:08.502894 - Exception: Invalid email format: murz_meoW@cats
+CustomEmailFormatException: Invalid email format: murz_meoW@cats
+	at EmailValidator.validateEmail(EmailValidator.java:7)
+	at App.main(App.java:10)
