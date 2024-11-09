@@ -2,7 +2,7 @@ package lab5;
 
 import java.util.regex.*;
 
-public class n4_IP {
+public class n4_IP_inator {
     public static void main(String[] args) {
         // String IP = "0.0.0.0";
         String IP = "255.255.255.255";
@@ -10,8 +10,6 @@ public class n4_IP {
         // String IP = "111.234.123.01";
         // String IP = null;
 
-        // ^(25[0-5]|2[0-4][0-9]|[0-9]{1,2}|1[0-9]{2})$
-        // ^(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[0-9][0-9]|[0-9])$
         String regex = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[0-9][0-9]|[0-9])(\\.|$)){4}$";
 
         try {

@@ -2,7 +2,7 @@ package lab5;
 
 import java.util.regex.*;
 
-public class n3_largeLetters {
+public class n3_largeLetters_inator {
     public static void main(String[] args) {
         String text = "МоЙ Кот оченЬ сердИТый А";
         // String text = null;
