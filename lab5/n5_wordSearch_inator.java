@@ -6,7 +6,7 @@ public class n5_wordSearch_inator {
     public static void main(String[] args) {
         String text = "My Car iS very angRy";
         // String text = null;
-        String X = "m"; // символ который ищем
+        String X = "c"; // символ который ищем
 
         try {
             Pattern pattern = Pattern.compile("\\b" + X + "[a-zA-Z]*\\b");

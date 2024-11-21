@@ -2,7 +2,7 @@ package lab5;
 
 import java.util.regex.*;
 
-public class n2_password_inator {
+public class n2_1_password_inator {
     public static void main(String[] args) {
         String password = "3Fgsfwfq";
         // String password = null;
