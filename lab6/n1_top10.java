@@ -40,7 +40,7 @@ public class n1_top10 {
                 }
             });
 
-            int count = Math.min(10, list.size()); // берём первые 10
+            int count = Math.min(10, list.size());
             for (int i = 0; i < count; i++) {
                 System.out.println(i + 1 + ". " + list.get(i).getKey() + " - " + list.get(i).getValue() + " pieces");
             }

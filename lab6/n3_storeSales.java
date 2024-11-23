@@ -13,8 +13,9 @@ public class n3_storeSales {
       // salesMap
 
     // Метод для добавления проданного товара
-    public void addSale(String item) {
-        salesMap.put(item, salesMap.getOrDefault(item, 0) + 1);
+    public void addSale(String item, int count) {
+        // salesMap.put(item, salesMap.getOrDefault(item, 0) + 1); // первая версия
+        salesMap.put(item, salesMap.getOrDefault(item, 0) + count);
     }
 
     // Метод для вывода списка проданных товаров
