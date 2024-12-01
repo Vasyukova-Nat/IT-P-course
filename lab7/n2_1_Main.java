@@ -4,7 +4,11 @@ import java.util.Random;
 
 public class n2_1_Main {
     public static void main(String[] args) {
-        int[][] matrix = { { 1, 2, 3 }, { 4, 5, 9 }, { 7, 8, 3 } };
+        int[][] matrix = {
+                { 1, 2, 3 },
+                { 4, 5, 9 },
+                { 7, 8, 3 }
+        };
         int rows = matrix.length; // строк
         int cols = matrix[0].length; // столбцов
 
