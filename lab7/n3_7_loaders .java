@@ -39,23 +39,24 @@ class n3_7_loaders {
 
                     if (capacity + product < 150) { // прибавляем продукт к грузоподъемности
                         capacity += product;
-                        System.out.println(Thread.currentThread().getName() + ": добавил продукт " + product
-                                + ", текущая грузоподъемность: " + capacity);
+                        System.out
+                                .println(Thread.currentThread().getName() + ": добавил продукт " + " с весом " + product
+                                        + ", текущая грузоподъемность: " + capacity);
                         n3_7_Main.products.remove(productKey);
+                        n3_7_Main.loaded.put(productKey, product);
                     } else {
-                        // Если превышен лимит, возвращаем продукт обратно в список
-                        // n3_7_Main.products.add(index, product);
-                        n3_7_Main.products.put("Гиря", 21);
+                        // n3_7_Main.products.add(index, product); // Если превышен лимит, возвращаем
+                        // продукт обратно в список
+
                         System.out.println(Thread.currentThread().getName() + ": остановился");
                         break;
                     }
 
                     System.out.println(n3_7_Main.products);
-                    // Условие пробуждения остальных потоков
-                    condition.signalAll();
+                    System.out.println(n3_7_Main.loaded);
+                    condition.signalAll(); // условие пробуждения остальных потоков
 
-                    // Задержка перед следующим действием
-                    Thread.sleep(random.nextInt(2000));
+                    Thread.sleep(random.nextInt(2000)); // задержка
                 } catch (InterruptedException e) {
                     System.err.println("Ошибка InterruptedException");
                 } finally {
@@ -73,4 +74,7 @@ class n3_7_loaders {
 
         }
     }
+
+    // public static class Unloader implements Runnable {
+    // }
 }

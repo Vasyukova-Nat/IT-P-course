@@ -4,7 +4,8 @@ import java.util.*;
 
 public class n3_7_Main {
     // public static List<Integer> products = new ArrayList<>();
-    public static Map<String, Integer> products = new HashMap<>();
+    public static Map<String, Integer> products = new HashMap<>(); // на складе
+    public static Map<String, Integer> loaded = new HashMap<>(); // в грузовике
 
     public static void main(String[] args) throws InterruptedException {
 
