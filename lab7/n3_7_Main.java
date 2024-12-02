@@ -47,6 +47,22 @@ public class n3_7_Main {
         loader2.join();
         loader3.join();
 
-        System.out.println("Мяу");
+        System.out.println("Мяу, загружено!");
+
+        Thread unloader1 = new Thread(new n3_7_loaders.Unloader(), "Грузчик-1");
+        Thread unloader2 = new Thread(new n3_7_loaders.Unloader(), "Грузчик-2");
+        Thread unloader3 = new Thread(new n3_7_loaders.Unloader(), "Грузчик-3");
+
+        // Запускаем потоки
+        unloader1.start();
+        unloader2.start();
+        unloader3.start();
+
+        // Ожидаем завершения всех потоков
+        unloader1.join();
+        unloader2.join();
+        unloader3.join();
+
+        System.out.println("УРАА! Разгружено!");
     }
 }
