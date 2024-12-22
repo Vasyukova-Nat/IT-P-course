@@ -1,8 +1,0 @@
-2024-10-19T20:08:46.335168300 - Exception: Invalid email format: bumblebeemail.ru
-CustomEmailFormatException: Invalid email format: bumblebeemail.ru
-	at EmailValidator.validateEmail(EmailValidator.java:10)
-	at App.main(App.java:10)
-2024-10-19T20:10:11.876206 - Exception: Invalid email format: bumblebeemail.ru
-CustomEmailFormatException: Invalid email format: bumblebeemail.ru
-	at EmailValidator.validateEmail(EmailValidator.java:10)
-	at App.main(App.java:10)
